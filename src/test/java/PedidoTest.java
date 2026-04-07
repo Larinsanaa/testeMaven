@@ -46,7 +46,6 @@ public class PedidoTest {
         assertFalse(pedido.podeCancelar());
     }
 
-    // teste que falha de proposito pra mostrar o erro no pipeline
     @Test
     public void testFalha() {
         assertEquals(1, 2);
