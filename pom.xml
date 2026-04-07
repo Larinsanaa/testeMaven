@@ -20,7 +20,6 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit para Testes -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -31,7 +30,6 @@
 
     <build>
         <plugins>
-            <!-- Plugin Maven Compiler -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -42,7 +40,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Plugin Maven Surefire para executar testes -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

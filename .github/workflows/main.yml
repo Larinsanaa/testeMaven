@@ -51,4 +51,4 @@ jobs:
       - name: Package JAR
         run: mvn clean package -DskipTests
       - name: Deploy simulado
-        run: echo "Deploy realizado com sucesso na branch main!"
+        run: echo "deploy feito"
